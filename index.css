@@ -1,0 +1,54 @@
+body{
+  background-image:url('img/resto.jpg');
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px;
+  }
+.accueil {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 150px;
+}
+
+.formulaire{
+  text-align: center;
+  border: grey solid;
+  padding: 5%;
+}
+.menu{
+  text-align: center;
+  border: grey solid;
+  padding: 5%;
+}
+.plat{
+    text-align: center;
+    border: grey solid;
+    padding: 5%;
+}
+.choix{
+  text-align: center;
+  border: grey solid;
+  padding: 5%;
+}
+ul {
+    display: flex;
+    width: 96%;
+}
+ul {
+
+    list-style: none;
+    text-decoration: none;
+    margin: 0 0 1.5rem 0;
+    justify-content: space-around;
+    height: 27px;
+    background: white;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
